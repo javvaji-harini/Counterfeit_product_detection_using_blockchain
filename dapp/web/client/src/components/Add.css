@@ -1,0 +1,105 @@
+.addBackground {
+    width: 100vw;
+      height: 100vh;
+      background-color: rgba(1, 10, 6, 0.2);
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .addContainer {
+      width: 700px;
+      height: auto; 
+      border-radius: 12px;
+      background-color:rgb(237, 222, 155);
+      box-shadow: rgba(78, 13, 27, 0.35) 0px 5px 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10px;
+    }
+    
+    .addContainer {
+      display: inline-block;
+      text-align: center;
+    }
+
+    .addContainer .heading{
+      font-size: 30px;
+      font-weight:800;
+      font-style:oblique;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    .addContainer .add {
+      display: inline-block;
+      text-align: center;
+      font-size: large;
+      font-weight: 700;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color:blueviolet;
+      margin: 15px;
+    }
+    
+    .addContainer .body {
+      flex: 50%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.7rem;
+      text-align: center;
+    }
+
+    .addContainer .body input{
+      padding: 5px;
+      margin: 5px;
+      background-color: lightgray;
+      color: maroon;
+      font-size: medium;
+      font-weight: 200;
+      border-radius: 5px;
+    }
+
+    .addContainer .body button{
+      padding:2px;
+      width: 100px;
+      height: 35px;
+      margin: 10px;
+      border-radius: 8px;
+      border: none;
+      background-color: cornflowerblue;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    .addContainer .footer {
+      flex: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .addContainer .footer button {
+      width: 100px;
+      height: 35px;
+      margin-top: 30px;
+      margin: 20px;
+      border: none;
+      background-color: cornflowerblue;
+      color: white;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    #cancelBtn {
+      background-color: crimson;
+    }
+    
+    input[type="text"]:focus {
+      background-color: lightblue;
+    }
